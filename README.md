@@ -24,10 +24,11 @@ To resolve this issue:
 1. To use these exercise files, you must have the following installed:
 	- [Go SDK](https://go.dev/dl)
     - [Visual Studio Code](https://code.visualstudio.com/) with the [Go extension](https://marketplace.visualstudio.com/items?itemName=golang.Go)
-    - [git](https://git-scm.com/)
     - [curl](https://curl.se/)
-    - [hey](https://github.com/rakyll/hey)
     - [docker](https://docker.com/)
+    - [git](https://git-scm.com/)
+    - [graphviz](https://graphviz.org/)
+    - [hey](https://github.com/rakyll/hey)
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 3. [Course-specific instructions]
 
