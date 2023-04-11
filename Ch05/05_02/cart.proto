@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+option go_package = "go-optimize/Ch05/05_02/pb";
+
+message Item {
+  string sku = 1;
+  int32 amount = 2;
+  double price = 3;
+}
+
+message Cart {
+  string user = 1;
+  google.protobuf.Timestamp updated = 2;
+  repeated Item items = 3;
+}
