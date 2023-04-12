@@ -16,7 +16,7 @@ const (
 	Error
 )
 
-// String implement fmt.Stringer()
+// String implements fmt.Stringer
 func (l Level) String() string {
 	switch l {
 	case Info:
