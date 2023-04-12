@@ -10,7 +10,7 @@ var (
 )
 
 func init() {
-	const size = 10000
+	const size = 10_000
 	events = make([]Event, size)
 	now := time.Now()
 	for i := 0; i < size; i++ {
