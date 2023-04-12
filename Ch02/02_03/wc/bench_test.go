@@ -5,17 +5,23 @@ import (
 	"testing"
 )
 
+var (
+	file *os.File
+)
+
+func init() {
+	var err error
+	file, err = os.Open("sherlock.txt")
+	if err != nil {
+		panic(err)
+	}
+}
+
 func BenchmarkLineCount(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		b.StopTimer()
-		file, err := os.Open("sherlock.txt")
-		if err != nil {
-			b.Fatal(err)
-		}
-		b.StartTimer()
+		file.Seek(0, os.SEEK_SET)
 
 		n, err := LineCount(file)
-		file.Close()
 		if err != nil {
 			b.Fatal(err)
 		}
