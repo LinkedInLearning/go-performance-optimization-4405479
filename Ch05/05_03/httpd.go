@@ -19,7 +19,7 @@ func main() {
 	if os.Getenv("SOCK_TYPE") == "unix" {
 		const sockFile = "/tmp/httpd.sock"
 		network, addr = "unix", sockFile
-		defer os.Remove(sockFile)
+		os.Remove(sockFile)
 	} else {
 		network, addr = "tcp", ":8080"
 	}
