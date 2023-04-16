@@ -9,8 +9,8 @@ func (m Mat) Dim() (rows int, cols int) {
 func (m Mat) Sum() float64 {
 	nRows, nCols := m.Dim()
 	total := 0.0
-	for r := 0; r < nRows; r++ {
-		for c := 0; c < nCols; c++ {
+	for c := 0; c < nCols; c++ {
+		for r := 0; r < nRows; r++ {
 			total += m[r][c]
 		}
 	}
