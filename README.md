@@ -1,24 +1,11 @@
 # Go Performance Optimization
 This is the repository for the LinkedIn Learning course `Go Performance Optimization`. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![Go Performance Optimization][lil-thumbnail-url] 
+
+Code that runs faster and consumes less memory can save your organization a lot of money, and responsive applications keep your users happy. For the past 25 years, Miki Tebeka has helped companies develop faster software with fewer resources. In this course, he shares the tools and techniques that he uses when optimizing code and services. Learn when and why to optimize and go over goal setting. Go over how to measure code performance and memory consumption. Explore solutions that involve concurrency and service optimization. Plus, discover why recording benchmarks is important and how to monitor and alter performance effectively.
+
 _See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
-
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
-
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
-
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
-
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
@@ -30,11 +17,18 @@ To resolve this issue:
     - [graphviz](https://graphviz.org/)
     - [hey](https://github.com/rakyll/hey)
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Miki Tebeka 
+                            
+
+
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/miki-tebeka).
+
+[lil-course-url]: https://www.linkedin.com/learning/go-performance-optimization
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGp0TnouNldUQ/learning-public-crop_675_1200/0/1686595628647?e=2147483647&v=beta&t=-9k3gz-qVmnhAwv4iLSen7HYSdFY0Z3LJZMNrSsWXnk
 
